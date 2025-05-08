@@ -1,6 +1,7 @@
 **Questions with answers**
 
 1. What are some differences between interfaces and types in TypeScript?
+
 **Answer:**
 
 Use `interface` for objects/classes.
@@ -15,6 +16,6 @@ Use `type` when you need more flexibility like unions or tuples.
 3. Explain the difference between `any`, `unknown`, and `never` types in TypeScript.
 
 **Answer:**
-`any`: Accepts anything, no type checks.
-`unknown`: Accepts anything, but you must check before use.
+`any`: Accepts anything, no type checks.<br/>
+`unknown`: Accepts anything, but you must check before use.<br/>
 `never`: A type for something that never returns.
